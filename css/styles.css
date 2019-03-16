@@ -69,7 +69,7 @@ td,
 th,
 p {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 10pt;
+  font-size: 27pt;
   color: #333;
   line-height: 1.5;
 }
@@ -83,7 +83,7 @@ body {
 ul,
 li {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 10pt;
+  font-size: 27pt;
   color: #333;
 }
 
@@ -521,20 +521,31 @@ nav h1 a {
   .create-review a {
     max-width: 50%;
   }
+
+  body,
+  td,
+  th,
+  p {
+    font-size: 10pt;
+  }
+  ul,
+  li {
+    font-size: 10pt;
+  }
+  
 }
 
 @media (min-width:481px) {
-  /* .col-3 {
-    width: 30%;
-    display: inline-block;
+  body,
+  td,
+  th,
+  p {
+    font-size: 27pt;
   }
-  .col-7 {
-    width: 68%;
-    display: inline-block;
+  ul,
+  li {
+    font-size: 27pt;
   }
-  .container div {
-    display: block !important;
-  } */
   .filter-options {
     flex-direction: row;
   }
@@ -547,6 +558,12 @@ nav h1 a {
   }
   #restaurants-list li {
     width: 25%;
+  }
+  #restaurant-name{
+    font-size: 50pt
+  }
+  #footer{
+    font-size: 25pt
   }
   .create-review a {
     max-width: 50%;
